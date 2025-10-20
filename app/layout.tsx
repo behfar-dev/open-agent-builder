@@ -32,8 +32,8 @@ export default function RootLayout({
       <ConvexProviderWithClerk client={convex} useAuth={useAuth}>
         <html lang="en">
           <head>
-            <title>Open Agent Builder</title>
-            <meta name="description" content="Build AI agents and workflows with visual programming" />
+            <title>Watermelon - Visual Workflow Builder</title>
+            <meta name="description" content="Build AI workflows with Watermelon - The sweetest way to create agent pipelines" />
             <link rel="icon" href="/favicon.png" />
             <ColorStyles />
           </head>
