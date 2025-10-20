@@ -1732,10 +1732,12 @@ function WorkflowBuilderInner({ onBack, initialWorkflowId, initialTemplateId }: 
           />
         ) : (selectedNode?.data as any)?.nodeType === 'extract' ? (
           <ExtractNodePanel
-            node={selectedNode}
-            nodes={nodes}
+            nodeData={selectedNode?.data}
             onClose={() => setSelectedNode(null)}
-            onDelete={handleDeleteNode}
+            onAddMCP={() => {
+              setTargetAgentForMCP(selectedNode);
+              setShowMCPSelector(true);
+            }}
             onUpdate={handleUpdateNodeData}
           />
         ) : (selectedNode?.data as any)?.nodeType === 'http' ? (
