@@ -1,4 +1,4 @@
-# Open Agent Builder
+# Watermelon 🍉
 
 <p align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGNoY25xY2ptZTZtcDN6czBmdXJ2dnpkdWVjcXlqNXNhdjgyZXpkaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tWtopK29eXAbvaDpi5/giphy.gif" alt="Demo" width="100%" />
@@ -6,7 +6,7 @@
 
 <div align="center">
 
-**Build, test, and deploy AI agent workflows with a visual no-code interface**
+**The sweetest way to build AI workflows - A visual workflow builder for creating agent pipelines**
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Firecrawl](https://img.shields.io/badge/Powered%20by-Firecrawl-orange)](https://firecrawl.dev)
@@ -17,9 +17,9 @@
 
 ---
 
-## What is Open Agent Builder?
+## What is Watermelon?
 
-Open Agent Builder is a visual workflow builder for creating AI agent pipelines powered by [Firecrawl](https://firecrawl.dev). Design complex agent workflows with a drag-and-drop interface, then execute them with real-time streaming updates.
+Watermelon is a visual workflow builder for creating AI agent pipelines powered by [Firecrawl](https://firecrawl.dev). Design complex agent workflows with a drag-and-drop interface, then execute them with real-time streaming updates. Sweet, simple, and powerful.
 
 **Perfect for:**
 - Web scraping and data extraction workflows
@@ -94,6 +94,7 @@ Before you begin, you'll need:
 git clone https://github.com/firecrawl/open-agent-builder.git
 cd open-agent-builder
 npm install
+# Note: This project is now rebranded as Watermelon 🍉
 ```
 
 ### 2. Set Up Convex (Database)

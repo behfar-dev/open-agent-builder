@@ -1,27 +1,50 @@
-/* Fire Design System Colors */
+/* Watermelon Design System Colors */
 /* Define sRGB values first for maximum compatibility */
 :root {
   /* Base colors */
   --white: #ffffff;
-  --black: #000000;
-  
-  /* Fire-inspired heat colors */
-  --heat-4: rgba(250, 93, 25, 0.039);
-  --heat-8: rgba(250, 93, 25, 0.078);
-  --heat-12: rgba(250, 93, 25, 0.122);
-  --heat-16: rgba(250, 93, 25, 0.161);
-  --heat-20: rgba(250, 93, 25, 0.200);
-  --heat-40: rgba(250, 93, 25, 0.400);
-  --heat-100: #fa5d19;
-  --heat-200: #ff6600;
-  
+  --black: #212529;
+
+  /* Watermelon-inspired pink/red colors */
+  --melon-pink-4: rgba(255, 107, 157, 0.039);
+  --melon-pink-8: rgba(255, 107, 157, 0.078);
+  --melon-pink-12: rgba(255, 107, 157, 0.122);
+  --melon-pink-16: rgba(255, 107, 157, 0.161);
+  --melon-pink-20: rgba(255, 107, 157, 0.200);
+  --melon-pink-40: rgba(255, 107, 157, 0.400);
+  --melon-pink-60: rgba(255, 107, 157, 0.600);
+  --melon-pink-90: rgba(255, 107, 157, 0.900);
+  --melon-pink-100: #ff6b9d;
+
+  /* Watermelon red shades */
+  --melon-red: #e84855;
+  --melon-red-light: #ff4757;
+  --melon-red-dark: #c23646;
+
+  /* Watermelon green shades (rind) */
+  --melon-green: #2d6a4f;
+  --melon-green-dark: #1b4332;
+  --melon-green-light: #40916c;
+  --melon-green-pale: #95d5b2;
+  --melon-green-mint: #74c69d;
+
+  /* Watermelon cream/white */
+  --melon-cream: #f8f9fa;
+  --melon-cream-dark: #f1f3f5;
+
+  /* Watermelon seed colors */
+  --melon-seed: #212529;
+  --melon-seed-light: #495057;
+
   /* Accent colors */
-  --accent-black: #262626;
+  --accent-black: #212529;
   --accent-white: #ffffff;
-  --accent-amethyst: #9061ff;
-  --accent-bluetron: #2a6dfb;
-  --accent-crimson: #eb3424;
-  
+  --accent-pink: #ff6b9d;
+  --accent-green: #40916c;
+  --accent-red: #e84855;
+  --accent-mint: #74c69d;
+  --accent-forest: #1b4332;
+
   /* Black alpha variants */
   --black-alpha-1: rgba(0, 0, 0, 0.012);
   --black-alpha-2: rgba(0, 0, 0, 0.020);
@@ -36,35 +59,52 @@
   --black-alpha-16: rgba(0, 0, 0, 0.161);
   --black-alpha-20: rgba(0, 0, 0, 0.200);
   --black-alpha-24: rgba(0, 0, 0, 0.239);
-  --black-alpha-32: rgba(38, 38, 38, 0.322);
-  --black-alpha-40: rgba(38, 38, 38, 0.400);
-  --black-alpha-48: rgba(38, 38, 38, 0.478);
-  --black-alpha-56: rgba(38, 38, 38, 0.561);
-  --black-alpha-64: rgba(38, 38, 38, 0.639);
-  --black-alpha-72: rgba(38, 38, 38, 0.722);
-  --black-alpha-88: rgba(38, 38, 38, 0.878);
-  
+  --black-alpha-32: rgba(33, 37, 41, 0.322);
+  --black-alpha-40: rgba(33, 37, 41, 0.400);
+  --black-alpha-48: rgba(33, 37, 41, 0.478);
+  --black-alpha-56: rgba(33, 37, 41, 0.561);
+  --black-alpha-64: rgba(33, 37, 41, 0.639);
+  --black-alpha-72: rgba(33, 37, 41, 0.722);
+  --black-alpha-88: rgba(33, 37, 41, 0.878);
+
   /* White alpha variants */
   --white-alpha-56: rgba(255, 255, 255, 0.561);
   --white-alpha-72: rgba(255, 255, 255, 0.722);
-  
-  /* Border colors */
-  --border-faint: #ededed;
-  --border-muted: #e8e8e8;
-  --border-loud: #e6e6e6;
-  
+
+  /* Border colors - subtle green tints */
+  --border-faint: rgba(149, 213, 178, 0.125);
+  --border-muted: rgba(116, 198, 157, 0.251);
+  --border-loud: rgba(64, 145, 108, 0.502);
+
   /* Illustration colors */
-  --illustrations-faint: #ededed;
-  --illustrations-muted: #e6e6e6;
-  --illustrations-default: #dbdbdb;
-  
+  --illustrations-faint: #95d5b2;
+  --illustrations-muted: #74c69d;
+  --illustrations-default: #40916c;
+
   /* Background colors */
-  --background-lighter: #fbfbfb;
-  --background-base: #f9f9f9;
-  
+  --background-lighter: #fafbfc;
+  --background-base: #f8f9fa;
+  --background-dark: #e9ecef;
+
+  /* Surface colors */
+  --surface-primary: #ff6b9d;
+  --surface-secondary: #40916c;
+
+  /* Text colors */
+  --text-primary: #212529;
+  --text-secondary: #495057;
+  --text-muted: #6c757d;
+  --text-on-primary: #ffffff;
+
+  /* Semantic colors */
+  --success: #40916c;
+  --warning: #ffc107;
+  --error: #e84855;
+  --info: #74c69d;
+
   /* Foreground colors */
-  --foreground: #262626;
-  --foreground-dimmer: rgba(38, 38, 38, 0.722);
+  --foreground: #212529;
+  --foreground-dimmer: rgba(33, 37, 41, 0.722);
 }
 
 /* P3 color space enhancement for supported browsers */
@@ -72,25 +112,48 @@
   :root {
     /* Base colors */
     --white: color(display-p3 1 1 1);
-    --black: color(display-p3 0 0 0);
-    
-    /* Fire-inspired heat colors */
-    --heat-4: color(display-p3 0.980392 0.364706 0.098039 / 0.039216);
-    --heat-8: color(display-p3 0.980392 0.364706 0.098039 / 0.078431);
-    --heat-12: color(display-p3 0.980392 0.364706 0.098039 / 0.121569);
-    --heat-16: color(display-p3 0.980392 0.364706 0.098039 / 0.160784);
-    --heat-20: color(display-p3 0.980392 0.364706 0.098039 / 0.200000);
-    --heat-40: color(display-p3 0.980392 0.364706 0.098039 / 0.400000);
-    --heat-100: color(display-p3 0.980392 0.364706 0.098039 / 1.000000);
-    --heat-200: color(display-p3 1.000000 0.400000 0.000000 / 1.000000);
-    
+    --black: color(display-p3 0.129412 0.145098 0.160784);
+
+    /* Watermelon-inspired pink/red colors */
+    --melon-pink-4: color(display-p3 1.000000 0.419608 0.615686 / 0.039216);
+    --melon-pink-8: color(display-p3 1.000000 0.419608 0.615686 / 0.078431);
+    --melon-pink-12: color(display-p3 1.000000 0.419608 0.615686 / 0.121569);
+    --melon-pink-16: color(display-p3 1.000000 0.419608 0.615686 / 0.160784);
+    --melon-pink-20: color(display-p3 1.000000 0.419608 0.615686 / 0.200000);
+    --melon-pink-40: color(display-p3 1.000000 0.419608 0.615686 / 0.400000);
+    --melon-pink-60: color(display-p3 1.000000 0.419608 0.615686 / 0.600000);
+    --melon-pink-90: color(display-p3 1.000000 0.419608 0.615686 / 0.900000);
+    --melon-pink-100: color(display-p3 1.000000 0.419608 0.615686 / 1.000000);
+
+    /* Watermelon red shades */
+    --melon-red: color(display-p3 0.909804 0.282353 0.333333 / 1.000000);
+    --melon-red-light: color(display-p3 1.000000 0.278431 0.341176 / 1.000000);
+    --melon-red-dark: color(display-p3 0.760784 0.211765 0.274510 / 1.000000);
+
+    /* Watermelon green shades (rind) */
+    --melon-green: color(display-p3 0.176471 0.415686 0.309804 / 1.000000);
+    --melon-green-dark: color(display-p3 0.105882 0.262745 0.196078 / 1.000000);
+    --melon-green-light: color(display-p3 0.250980 0.568627 0.423529 / 1.000000);
+    --melon-green-pale: color(display-p3 0.584314 0.835294 0.698039 / 1.000000);
+    --melon-green-mint: color(display-p3 0.454902 0.776471 0.615686 / 1.000000);
+
+    /* Watermelon cream/white */
+    --melon-cream: color(display-p3 0.972549 0.976471 0.980392 / 1.000000);
+    --melon-cream-dark: color(display-p3 0.945098 0.952941 0.960784 / 1.000000);
+
+    /* Watermelon seed colors */
+    --melon-seed: color(display-p3 0.129412 0.145098 0.160784 / 1.000000);
+    --melon-seed-light: color(display-p3 0.286275 0.313725 0.341176 / 1.000000);
+
     /* Accent colors */
-    --accent-black: color(display-p3 0.149020 0.149020 0.149020 / 1.000000);
+    --accent-black: color(display-p3 0.129412 0.145098 0.160784 / 1.000000);
     --accent-white: color(display-p3 1.000000 1.000000 1.000000 / 1.000000);
-    --accent-amethyst: color(display-p3 0.564706 0.380392 1.000000 / 1.000000);
-    --accent-bluetron: color(display-p3 0.164706 0.427451 0.984314 / 1.000000);
-    --accent-crimson: color(display-p3 0.921569 0.203922 0.141176 / 1.000000);
-    
+    --accent-pink: color(display-p3 1.000000 0.419608 0.615686 / 1.000000);
+    --accent-green: color(display-p3 0.250980 0.568627 0.423529 / 1.000000);
+    --accent-red: color(display-p3 0.909804 0.282353 0.333333 / 1.000000);
+    --accent-mint: color(display-p3 0.454902 0.776471 0.615686 / 1.000000);
+    --accent-forest: color(display-p3 0.105882 0.262745 0.196078 / 1.000000);
+
     /* Black alpha variants */
     --black-alpha-1: color(display-p3 0.000000 0.000000 0.000000 / 0.011765);
     --black-alpha-2: color(display-p3 0.000000 0.000000 0.000000 / 0.019608);
@@ -105,31 +168,47 @@
     --black-alpha-16: color(display-p3 0.000000 0.000000 0.000000 / 0.160784);
     --black-alpha-20: color(display-p3 0.000000 0.000000 0.000000 / 0.200000);
     --black-alpha-24: color(display-p3 0.000000 0.000000 0.000000 / 0.239216);
-    --black-alpha-32: color(display-p3 0.149020 0.149020 0.149020 / 0.321569);
-    --black-alpha-40: color(display-p3 0.149020 0.149020 0.149020 / 0.400000);
-    --black-alpha-48: color(display-p3 0.149020 0.149020 0.149020 / 0.478431);
-    --black-alpha-56: color(display-p3 0.149020 0.149020 0.149020 / 0.560784);
-    --black-alpha-64: color(display-p3 0.149020 0.149020 0.149020 / 0.639216);
-    --black-alpha-72: color(display-p3 0.149020 0.149020 0.149020 / 0.721569);
-    --black-alpha-88: color(display-p3 0.149020 0.149020 0.149020 / 0.878431);
-    
+    --black-alpha-32: color(display-p3 0.129412 0.145098 0.160784 / 0.321569);
+    --black-alpha-40: color(display-p3 0.129412 0.145098 0.160784 / 0.400000);
+    --black-alpha-48: color(display-p3 0.129412 0.145098 0.160784 / 0.478431);
+    --black-alpha-56: color(display-p3 0.129412 0.145098 0.160784 / 0.560784);
+    --black-alpha-64: color(display-p3 0.129412 0.145098 0.160784 / 0.639216);
+    --black-alpha-72: color(display-p3 0.129412 0.145098 0.160784 / 0.721569);
+    --black-alpha-88: color(display-p3 0.129412 0.145098 0.160784 / 0.878431);
+
     /* White alpha variants */
     --white-alpha-56: color(display-p3 1.000000 1.000000 1.000000 / 0.560784);
     --white-alpha-72: color(display-p3 1.000000 1.000000 1.000000 / 0.721569);
-    
+
     /* Border colors */
-    --border-faint: color(display-p3 0.929412 0.929412 0.929412 / 1.000000);
-    --border-muted: color(display-p3 0.909804 0.909804 0.909804 / 1.000000);
-    --border-loud: color(display-p3 0.901961 0.901961 0.901961 / 1.000000);
-    
+    --border-faint: color(display-p3 0.584314 0.835294 0.698039 / 0.125490);
+    --border-muted: color(display-p3 0.454902 0.776471 0.615686 / 0.250980);
+    --border-loud: color(display-p3 0.250980 0.568627 0.423529 / 0.501961);
+
     /* Illustration colors */
-    --illustrations-faint: color(display-p3 0.929412 0.929412 0.929412 / 1.000000);
-    --illustrations-muted: color(display-p3 0.901961 0.901961 0.901961 / 1.000000);
-    --illustrations-default: color(display-p3 0.858824 0.858824 0.858824 / 1.000000);
-    
+    --illustrations-faint: color(display-p3 0.584314 0.835294 0.698039 / 1.000000);
+    --illustrations-muted: color(display-p3 0.454902 0.776471 0.615686 / 1.000000);
+    --illustrations-default: color(display-p3 0.250980 0.568627 0.423529 / 1.000000);
+
     /* Background colors */
-    --background-lighter: color(display-p3 0.984314 0.984314 0.984314 / 1.000000);
-    --background-base: color(display-p3 0.976471 0.976471 0.976471 / 1.000000);
+    --background-lighter: color(display-p3 0.980392 0.984314 0.988235 / 1.000000);
+    --background-base: color(display-p3 0.972549 0.976471 0.980392 / 1.000000);
+    --background-dark: color(display-p3 0.913725 0.925490 0.937255 / 1.000000);
+
+    /* Surface colors */
+    --surface-primary: color(display-p3 1.000000 0.419608 0.615686 / 1.000000);
+    --surface-secondary: color(display-p3 0.250980 0.568627 0.423529 / 1.000000);
+
+    /* Text colors */
+    --text-primary: color(display-p3 0.129412 0.145098 0.160784 / 1.000000);
+    --text-secondary: color(display-p3 0.286275 0.313725 0.341176 / 1.000000);
+    --text-muted: color(display-p3 0.423529 0.458824 0.490196 / 1.000000);
+    --text-on-primary: color(display-p3 1.000000 1.000000 1.000000 / 1.000000);
+
+    /* Semantic colors */
+    --success: color(display-p3 0.250980 0.568627 0.423529 / 1.000000);
+    --warning: color(display-p3 1.000000 0.756863 0.027451 / 1.000000);
+    --error: color(display-p3 0.909804 0.282353 0.333333 / 1.000000);
+    --info: color(display-p3 0.454902 0.776471 0.615686 / 1.000000);
   }
 }
-
